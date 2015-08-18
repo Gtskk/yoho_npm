@@ -1,0 +1,23 @@
+{
+  "name": "custom-cnpm-example",
+  "version": "0.0.0",
+  "author": "dead_horse <dead_horse@qq.com>",
+  "repository": "cnpm/custom-cnpm-example",
+  "dependencies": {
+    "cnpmjs.org": "2.1.3",
+    "mkdirp": "~0.5.0",
+    "qn-cnpm": "~1.0.0",
+    "sfs": "~0.1.0",
+    "sfs-client": "~0.1.0",
+    "sqlite3": "^3.0.10"
+  },
+  "devDependencies": {
+    "autod": "~0.3.2"
+  },
+  "scripts": {
+    "start": "pm2 start hello_cnpm --node-args='--harmony' --name cnpmjs"
+  },
+  "engine": {
+    "node": ">=0.11.9"
+  }
+}
