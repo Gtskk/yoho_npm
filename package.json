@@ -8,8 +8,7 @@
     "mkdirp": "~0.5.0",
     "qn-cnpm": "~1.0.0",
     "sfs": "~0.1.0",
-    "sfs-client": "~0.1.0",
-    "sqlite3": "^3.0.10"
+    "sfs-client": "~0.1.0"
   },
   "devDependencies": {
     "autod": "~0.3.2"
